@@ -12,11 +12,6 @@
   grid-template-rows: 14vh 43vh 43vh;
 }
 
-body{
-  background-color: RGB(247, 247, 247);
-  
-}
-
 #logo {grid-area: header;
   display: flex;
   justify-content: center;
