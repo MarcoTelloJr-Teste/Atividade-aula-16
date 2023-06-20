@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.all {display: grid;
+  grid-template-areas: 
+  "header"
+  "topo"
+  "ingredientes";
+  grid-template-columns: 100vw;
+  grid-template-rows: 14vh 43vh 43vh;
+}
+
+body{
+  background-color: RGB(247, 247, 247);
+  
+}
+
+#logo {grid-area: header;
+  display: flex;
+  justify-content: center;
+}
+
+#texto-topo {grid-area: topo;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 50%;
+margin: 2% auto;
+padding: 10px;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+#img {border-radius: 20px;
+  margin: 20px;
+}
+
+p {margin: 5px;
+  padding: 5px 0;
+}
+
+#preparo {grid-area: ingredientes;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.ingredientes {margin-right: 20px;
+}
+
+.preparo {margin-left: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.info { 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
