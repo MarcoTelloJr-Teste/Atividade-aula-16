@@ -1,0 +1,63 @@
+body{
+   
+    margin: auto;
+    width: 1080px;
+  
+
+}
+#receita{
+   
+    background-color: rgb(228, 228, 236);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+}
+
+#logo{
+    width: 120px;
+}
+#chips-img{
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+   
+}
+button{
+    background-color: rgb(199, 76, 76);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+#icones{
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 10px;
+    margin-inline: 5px;
+    width: 20px;
+}
+#icones2{
+    
+    margin-inline: 5px;
+    width: 50px;
+}
+#pessoas{
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+#icon{
+    margin-top: 20px;
+}
+li{
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+footer{
+    border-radius: 15px;
+    padding: 50px;
+    background-color:rgb(228, 228, 236);
+}
