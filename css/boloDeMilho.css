@@ -6,7 +6,7 @@
       "ingredientes preparo";
     grid-template-rows: auto; 
     grid-template-columns: 50% 50%;
-    grid-gap: 10px
+    grid-gap: 20px
  }
 
  .border {
@@ -19,14 +19,21 @@
  }
  
  section#imagem {
-    grid-area: imagem;     
+    grid-area: imagem;
+    text-align: center;;
  }
+
+ img{
+   border-radius: 10px;
+ }
+
 #descricao {
     grid-area: descricao;
    
  }
  #ingredientes {
-    grid-area: ingredientes;  
+    grid-area: ingredientes;
+    justify-self: right; 
  }
 
  #preparo {
