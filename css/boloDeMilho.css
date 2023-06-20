@@ -1,0 +1,45 @@
+#grade {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "imagem descricao"
+      "ingredientes preparo";
+    grid-template-rows: auto; 
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px
+ }
+
+ .border {
+    border: 1px solid black;
+ }
+ 
+ header {
+    grid-area: header;
+    text-align: center;
+ }
+ 
+ section#imagem {
+    grid-area: imagem;     
+ }
+#descricao {
+    grid-area: descricao;
+   
+ }
+ #ingredientes {
+    grid-area: ingredientes;  
+ }
+
+ #preparo {
+    grid-area: preparo;     
+ }
+ #titulo {
+    color:lightslategrey;
+ }
+ #rendimento{
+    text-align: center;
+    display: inline-block;
+ }
+ #tempo{
+    text-align: center;
+    display: inline-block;
+ }

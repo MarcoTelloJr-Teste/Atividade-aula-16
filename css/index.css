@@ -1,0 +1,24 @@
+#grade {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "titulo"
+    "carrossel";
+  grid-template-rows: auto; 
+  grid-template-columns: auto;
+  grid-gap: 10px
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+}
+
+#titulo {
+  grid-area: titulo;
+  color:darkslategray
+}
+
+#carrossel {
+  grid-area:carrossel;
+}
