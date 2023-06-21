@@ -22,3 +22,7 @@ header {
 #carrossel {
   grid-area:carrossel;
 }
+
+.imagens {
+  border-radius: 15px;
+}
